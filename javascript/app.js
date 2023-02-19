@@ -3,6 +3,12 @@
 var main = function() {
     "use strict";
 
+    var $headerFirstChild = $("<p>").text("first child of header");
+    $("header").prepend($headerFirstChild);
+
+    var $footerFirstChild = $("<p>").text("first child of footer");
+    $("footer").prepend($footerFirstChild);
+
     var addCommentFromInputBox = function() {
         var $newComment = $("<p>");
         if ($(".comment-input input").val() !== "") {
