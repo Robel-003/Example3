@@ -10,27 +10,54 @@
     <body>
         <header>
             <!--top part of our webpage-->
-            <h1>Comments</h1>
-            <p>A simple app that allows a user to input comments</p>
+            <div class="container">
+                <h1>Amazeriffic!</h1>
+                <nav>
+                    <a href="#">Sign up!</a> |
+                    <a href="#">FAQ</a> |
+                    <a href="#">Support</a> 
+                </nav>
+                </div>  
         </header>
-        <main>
-            <!--main is a container holding contents of our webpage-->
-            <section class="comments">
-                <p>This is your first comment</p>
-                <p>Here's the second one</p>
-                <p>And this is one more</p>
-                <p>Here is another one</p>
-            </section>
-            <section class="comment-input">
-                <p>Add your comment:</p>
-                <input type="text"><button>+</button>
-            </section>
 
+
+        <main>
+            <div class="container">
+                <div class="tabs">
+                <a href=""><span class="active">Newest</span></a><a href=""><span>Oldest</span></a><a href=""><span>Add</span></a>
+                </div>
+                <div class="content">
+                </div>
+            </div>
         </main>
+        
         <footer>
-            <!--bottom part of our webpage-->
-            <p>this work is released into the public domain </p>
+            <div class="container">
+                <div class="contact">
+                <h5>Contact Us</h5>
+                <p>Amazeriffic!</p>
+                <p>555 Fiftieth Street</p>
+                <p>Asheville, NC 28801</p>
+                </div>
+                <div class="sitemap">
+                <h5>Sitemap</h5>
+                <ul>
+                    <div class="left">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    </div>
+                    <div class="right">
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Careers</a></li>
+                    </div>
+                </ul>
+                </div>
+            </div>
         </footer>
+          
+
         <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
         <!--directory first, then file name -- javascript/app.js -->
         <script src="javascript/app.js"></script>
